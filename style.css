@@ -1,0 +1,67 @@
+.body {
+
+    background-image:
+    radial-gradient(
+        #2F4F4F,
+    black
+    );
+
+
+}
+
+
+.clear {
+clear: both;
+}
+
+
+.navbar:hover {
+background-color: gainsboro ;
+color: black;
+}
+
+
+
+.font {
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.font2 {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.font {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+position: relative;
+background-color: black;
+height: 120vh;
+min-height: 25rem;
+width: 100%;
+overflow: hidden;
+}
+
+header .container {
+position: relative;
+z-index: 2;
+}
+
+header .overlay {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-color: black;
+opacity: 0.5;
+z-index: 1;
+background-image: url(https://i.pinimg.com/564x/76/6f/a4/766fa4ce60dffbea41b663498ce1d11a.jpg);
+background-repeat: no-repeat;
+background-position: top right;
+}
+
+
